@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="Style.css">
+  <title>Gerenciador de Turma</title>
+</head>
+<body>
+  <div class="sidebar">
+    <h2>Painel</h2>
+    <ul>
+      <li onclick="exibatelas('adicionaraluno')">Adicionar Aluno</li>
+      <li onclick="exibatelas('lista')">Listar Alunos</li>
+      <li onclick="exibatelas('nota')">Registrar Notas</li>
+      <li onclick="exibatelas('media')">Calcular Média</li>
+      <li onclick="exibatelas('aprovados')">Mostrar Aprovados</li>
+      <li onclick="exibatelas('estatisticas')">Estatísticas</li>
+      <li onclick="exibatelas('ordem')">Ordenar por Média</li>
+      <li onclick="exibatelas('excluir')">Remover Aluno</li>
+    </ul>
+  </div>
+  <div class="main">
+    <div id="telas"></div>
+  </div>
+
+<script src="codigo.js"></script>
+</body>
+</html>
